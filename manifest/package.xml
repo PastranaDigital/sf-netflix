@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <version>62.0</version>
+	<types>
+		<members>Netflix_Admin</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Netflix_User__c</members>
+		<members>Recently_Watched__c</members>
+		<members>Video__c</members>
+		<members>Watch_Later_List__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Netflix_User__c</members>
+		<members>Recently_Watched__c</members>
+		<members>Video__c</members>
+		<members>Watch_Later_List__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Netflix_User__c-Netflix User Layout</members>
+		<members>Recently_Watched__c-Recently Watched Layout</members>
+		<members>Video__c-Video Layout</members>
+		<members>Watch_Later_List__c-Watch Later List Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>SF_Netflix_Admin</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>63.0</version>
 </Package>

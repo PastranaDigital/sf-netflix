@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Released__c</fullName>
+    <description>Year the movie or tv show was released</description>
+    <externalId>false</externalId>
+    <inlineHelpText>YYYY format</inlineHelpText>
+    <label>Year Released</label>
+    <length>4</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
